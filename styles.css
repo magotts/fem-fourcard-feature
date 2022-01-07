@@ -47,7 +47,7 @@ body {
 
 .header p {
   margin: 0;
-  color: var(--very-dark-blue);
+  color: var(--grayish-blue);
   line-height: 1.7;
 }
 
@@ -90,6 +90,7 @@ body {
 
 .features h3 {
   margin-bottom: 10px;
+  padding-top: 25px;
 }
 
 .features p {
@@ -113,5 +114,9 @@ body {
 
   .features {
     flex-direction: column;
+  }
+
+  .features .calc {
+    margin-bottom: 1.5rem;
   }
 }
