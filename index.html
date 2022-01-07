@@ -14,46 +14,62 @@
 
     <title>Frontend Mentor | Four card feature section</title>
 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
+
       <div class="header">
-        <p class="light">Reliable, efficient delivery</p>
-        <p>Powered by Technology</p>
-      </div>
-      <div class="subheader">
+        <h1>Reliable, efficient delivery</h1>
+        <h2>Powered by Technology</h2>
         <p>
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </div>
+
       <div class="features">
-        <div class="supervisor">
+
+        <div class="col">
+        <div class="box box-cyan">
           <h3>Supervisor</h3>
           <p>Monitors activity to identify project roadblocks</p>
-          <p class="iconside"><img src="./images/icon-supervisor.svg" alt="supervisor logo"></p>
+          <img src="./images/icon-supervisor.svg" alt="supervisor logo">
         </div>
-        <div class="teambuilder">
+      </div>
+      
+      <div class="col">
+        <div class="box box-red">
           <h3>Team Builder</h3>
           <p>
             Scans our talent network to create the optimal team for your project
           </p>
-          <p class="iconside"><img src="./images/icon-team-builder.svg" alt="team-builder logo"></p>
+          <img src="./images/icon-team-builder.svg" alt="team-builder logo">
         </div>
-        <div class="karma">
+      </div>
+
+      <div class="col">
+        <div class="box box-orange">
           <h3>Karma</h3>
           <p>Regularly evaluates our talent to ensure quality</p>
-          <p class="iconside"><img src="./images/icon-karma.svg" alt="karma logo"></p>
+          <img src="./images/icon-karma.svg" alt="karma logo">
         </div>
-        <div class="calculator">
+      </div>
+
+      <div class="col">
+        <div class="box box-blue">
           <h3>Calculator</h3>
           <p>
             Uses data from past projects to provide better delivery estimates
           </p>
-          <p class="iconside"><img src="./images/icon-calculator.svg" alt="calculator logo"></p>
+          <img src="./images/icon-calculator.svg" alt="calculator logo">
         </div>
-        </div>
+      </div>
+
+        <!-- </div>
+        </div> -->
       </div>
     </div>
   </body>
